@@ -1,15 +1,15 @@
 .socialmedia-icon-item {
   fill: #afb1b8;
   transition: $trensFill;
+  margin: auto;
 }
 .socialmedia-icons {
+  display: flex;
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: transparent;
   cursor: pointer;
-  padding-left: 12px;
-  padding-top: 12px;
   transition: $transBgColor;
   &:hover,
   &:focus {

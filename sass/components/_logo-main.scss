@@ -9,3 +9,13 @@
     color: getColor('accent');
   }
 }
+@media #{$tablet} {
+  .logo-main {
+    font-size: 24px;
+  }
+}
+@media #{$desktop} {
+  .logo-main {
+    font-size: 24px;
+  }
+}

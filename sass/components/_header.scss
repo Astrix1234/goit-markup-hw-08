@@ -1,6 +1,6 @@
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 26px;
+  padding-bottom: 26px;
   border-bottom: 1px solid #ececec;
   &__container {
     display: flex;
@@ -9,5 +9,55 @@
 
   &__logo {
     margin-right: 93px;
+  }
+}
+.menu-toggle {
+  margin-left: auto;
+  background-color: getColor('accentLight');
+  border: none;
+  cursor: pointer;
+  &__icon {
+    fill: getColor('accentDark');
+    transition: $trensFill;
+    &:hover,
+    &:focus {
+      fill: getColor('accent');
+    }
+  }
+}
+@media #{$tablet} {
+  .header {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #ececec;
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    &__logo {
+      margin-right: 83px;
+    }
+  }
+  .menu-toggle {
+    display: none;
+  }
+}
+@media #{$desktop} {
+  .header {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #ececec;
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    &__logo {
+      margin-right: 93px;
+    }
+  }
+  .menu-toggle {
+    display: none;
   }
 }

@@ -1,6 +1,6 @@
 .logo-main {
   font-family: $fonttFamilyLogo;
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 700;
   color: getColor('accentDark');
   letter-spacing: 0.03em;
@@ -9,13 +9,8 @@
     color: getColor('accent');
   }
 }
-@media #{$tablet} {
-  .logo-main {
-    font-size: 24px;
-  }
-}
 @media #{$desktop} {
   .logo-main {
-    font-size: 24px;
+    font-size: 26px;
   }
 }

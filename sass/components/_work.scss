@@ -1,11 +1,6 @@
 .work {
   display: none;
 }
-@media #{$tablet} {
-  .work {
-    display: none;
-  }
-}
 @media #{$desktop} {
   .work {
     display: flex;

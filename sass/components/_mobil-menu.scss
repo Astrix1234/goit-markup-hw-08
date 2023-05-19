@@ -33,13 +33,3 @@
 .is-open {
   transform: translateX(0);
 }
-@media #{$tablet} {
-  .is-open {
-    transform: translateX(100%);
-  }
-}
-@media #{$desktop} {
-  .is-open {
-    transform: translateX(100%);
-  }
-}

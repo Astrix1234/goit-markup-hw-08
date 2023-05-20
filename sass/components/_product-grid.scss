@@ -1,5 +1,18 @@
 .product-grid {
   display: flex;
-  flex-wrap: wrap;
-  gap: 45px;
+  flex-direction: column;
+  gap: 30px;
+}
+@media #{$tablet} {
+  .product-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media #{$desktop} {
+  .product-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 45px;
+  }
 }

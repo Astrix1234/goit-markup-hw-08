@@ -1,6 +1,4 @@
 .mobile-nav {
-  display: flex;
-  flex-direction: column;
   &__link {
     color: getColor('primary');
     font-weight: 500;
